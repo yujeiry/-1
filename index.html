@@ -2,6 +2,45 @@
 <html>
     <head>
         <title> </title>
+        <style>
+                    
+            body{
+              background-image: url(https://i.pinimg.com/originals/c8/7b/5f/c87b5f300390091fcf44a7183522b15c.gif);
+              background-repeat:no-repeat;
+              background-size:cover;
+              
+             
+              color: white;
+              font-family: Trebuchet
+             MS, Verdana;
+            }
+            
+            .world{
+             display:none;    
+            }
+            
+            .container{
+               width:60%;
+               max-width:1000px;
+               margin:auto;
+               
+            }
+            
+            .inputs-box{
+             display:flex;
+             justify-content:center;
+             flex-direction:column;
+             margin:7%;
+             padding:7%;
+            }
+            
+            span{
+            color:blue;    
+            }
+            
+
+
+        </style>
     </head>
     <body>
    
@@ -26,6 +65,57 @@
         <h4>Hello <span class="nameval">User</span>,what grade are you in?<span class="ageval">enter</span>,what is your dream job? <span class="jobval">enter</span>,now that you are in <span class="ageval">enter</span>grade,start learning alot of things about <span class="jobval">enter</span>career,because in the future you will be a awesome <span class="jobval">enter</span>
         </h4>
         <button></button>
+        
+        <script>
+            var a;
+            $(".button1").click(function(){
+               a = $(".name").val();
+               console.log(a);
+               $(".nameval").html(a);
+               });
+               
+               var b;
+            $(".button1").click(function(){
+               b = $(".age").val();
+               console.log(b);
+               $(".ageval").html(b);
+               });
+              
+              var c;
+            $(".button1").click(function(){
+               c = $(".job").val();
+               console.log(c);
+               $(".jobval").html(c);
+               });
+            
+            $("button1").click(function(){
+                $(".world").show();
+            });
+            
+            $("button1").click(function(){
+                $(".inputs-box").hide();
+                $(".btmhide").hide();
+            });
+            
+            $(".button1").click(function(){
+                c=$(".job").val();
+                console.log(c);
+                $(".jobval").html(c);
+            });
+            
+            $(".button1").click(function(){
+                $(".world").show();
+            });
+            
+            $(".buton1").click(function(){
+                $(".inputs-box").hide();
+                $(".btmhide").hide();
+            });
+            
+
+   
+   
+        </script>
         </div>
        </body>
 </html>
