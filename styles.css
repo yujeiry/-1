@@ -1,0 +1,36 @@
+
+body{
+  background-image: url(https://i.pinimg.com/originals/c8/7b/5f/c87b5f300390091fcf44a7183522b15c.gif);
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+ 
+  color: white;
+  font-family: Trebuchet
+ MS, Verdana;
+}
+
+.world{
+ display:none;    
+}
+
+.container{
+   width:60%;
+   max-width:1000px;
+   margin:auto;
+   
+}
+
+.inputs-box{
+ display:flex;
+ justify-content:center;
+ flex-direction:column;
+ margin:7%;
+ padding:7%;
+}
+
+span{
+color:blue;    
+}
+
+
